@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "title": "Test",
+      "summary": "Test Summary",
+      "id": 1
+    },
+    {
+      "title": "Test",
+      "summary": "Test Summary",
+      "id": 2
+    }
+  ]
+}

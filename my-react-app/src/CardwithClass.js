@@ -29,6 +29,13 @@ export default class CardwithClass extends Component {
     
    }
 
+   deleteCourse(){
+     fetch('http://localhost:8000/courses/' + this.props.id, {
+       method: 'DELETE'
+     }).then(res=>res.json())
+     .then(body => console.log(body))
+   }
+
   render() {
     console.log('In render...');
     return (
@@ -38,6 +45,7 @@ export default class CardwithClass extends Component {
           <h5 className="card-title">{this.props.title}</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" onClick={this.reverseText.bind(this)} className="btn btn-primary">{this.state.text}</a>
+          <button  onClick={this.deleteCourse.bind(this)} className="btn btn-danger"> X </button>
         </div>
       </div>
     )

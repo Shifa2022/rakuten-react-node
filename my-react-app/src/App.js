@@ -6,6 +6,8 @@ import BadgeWithClass from './BadgeWithClass';
 import Card from './Card';
 import Dropdown from './components/Dropdown';
 import CardwithClass from './CardwithClass';
+import ViewCourses from './components/ViewCourses';
+import ViewCoursesFn from './components/ViewCoursesFn';
 
 
 function App() {
@@ -26,7 +28,9 @@ function App() {
     <Dropdown caption="Select Cuisines" items={cuisines}/>
     <Dropdown caption="Select Courses" items={courses}/>
     {/* {/* <Card title="React"/> */}
-    <CardwithClass title="NodeJS"/> 
+    {/* <CardwithClass title="NodeJS"/> 
+     */}
+     < ViewCoursesFn/>
 
 {/* {listCourses} */}
   </div>

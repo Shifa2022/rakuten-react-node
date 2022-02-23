@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Card(props) {
 
@@ -21,7 +22,7 @@ export default function Card(props) {
   <div className="card-body">
     <h5 className="card-title">{props.course.title}</h5>
     <p className="card-text">{props.course.summary}</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <Link to={"/update/" + props.course.id + "/" + props.course.title} className="btn btn-primary">Edit</Link>
     <button onClick={deleteCourse} className="btn btn-danger"> X </button>
   </div>
 </div>

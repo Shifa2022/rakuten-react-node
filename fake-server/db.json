@@ -1,29 +1,9 @@
 {
   "courses": [
     {
-      "title": "Test",
-      "summary": "sfasfa",
-      "id": 2
-    },
-    {
       "title": "Angular",
       "summary": "yyyyyyyyyyyyyyyy",
       "id": 3
-    },
-    {
-      "title": "Test",
-      "summary": "another ui framework",
-      "id": 4
-    },
-    {
-      "title": "Test",
-      "summary": "another ui framework",
-      "id": 5
-    },
-    {
-      "title": "Test",
-      "summary": "another ui framework",
-      "id": 6
     },
     {
       "title": "React",
@@ -36,74 +16,9 @@
       "id": 8
     },
     {
-      "title": "aaaaaaa",
-      "summary": "bbbbbbb",
-      "id": 9
-    },
-    {
-      "title": "aaaaaaa",
-      "summary": "bbbbbbb",
-      "id": 10
-    },
-    {
-      "title": "cccccc",
-      "summary": "dddddd",
-      "id": 11
-    },
-    {
-      "title": "xxxxxx",
-      "summary": "yyyyyy",
-      "id": 12
-    },
-    {
       "title": "TestTitle",
       "summary": "TestSummary",
       "id": 13
-    },
-    {
-      "title": "sdgsdg",
-      "summary": "dsgsdgds",
-      "id": 14
-    },
-    {
-      "title": "",
-      "summary": "",
-      "id": 15
-    },
-    {
-      "title": "",
-      "summary": "",
-      "id": 16
-    },
-    {
-      "title": "dsgsdgds",
-      "summary": "dsgdsgd",
-      "id": 17
-    },
-    {
-      "title": "sdgdsg",
-      "summary": "dsgdsg",
-      "id": 18
-    },
-    {
-      "title": "dsgdsg",
-      "summary": "sgdgdsddgd",
-      "id": 19
-    },
-    {
-      "title": "sdgdg",
-      "summary": "sdgsdg",
-      "id": 20
-    },
-    {
-      "title": "sdgdsgsd",
-      "summary": "sdgsgd",
-      "id": 21
-    },
-    {
-      "title": "sdgsdgds",
-      "summary": "sdgsdggds",
-      "id": 22
     }
   ]
 }

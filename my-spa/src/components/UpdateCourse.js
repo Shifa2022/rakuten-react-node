@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 import Button from 'react-bootstrap/Button';
 export default function UpdateCourse() {
     let params = useParams();
+    let navigate = useNavigate();
   const [title, setTitle] = useState(params.title);
   const [summary, setSummary] = useState('');
 
@@ -18,10 +19,16 @@ export default function UpdateCourse() {
           } 
       }).then(res=> {
           console.log(res);
-          return res.json()
+          if(res.status >= 400){
+            console.log('Stay here and display a message')
+          }
+          else{
+            navigate('/')
+          }
         })
-      .then(data =>  {
-          setSummary('')
+     
+      .catch(err=>{
+        console.log('In case of error' , err)
       })
   }
 

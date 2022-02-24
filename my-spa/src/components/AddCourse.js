@@ -11,7 +11,7 @@ export default function AddCourse() {
 
 
     const addCourse = () => {
-        fetch('http://localhost:8000/courses', {
+        fetch('http://localhost:5000/courses', {
             method: 'POST',
             body: JSON.stringify({ title, summary }),
             headers: {

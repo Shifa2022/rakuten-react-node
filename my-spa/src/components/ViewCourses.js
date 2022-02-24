@@ -7,7 +7,7 @@ export default function ViewCourses() {
  
   useEffect(() => {
     //
-    fetch('http://localhost:8000/courses')
+    fetch('http://localhost:5000/courses')
     .then(res => res.json())
     .then( data => {
         console.log(data);

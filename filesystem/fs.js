@@ -15,6 +15,8 @@ const promise = new Promise((resolve, reject)=>{
     })
 })
 
+fs.readFile('./data.txt').
+
 promise.then(data=> console.log(data+" "))
 
 
